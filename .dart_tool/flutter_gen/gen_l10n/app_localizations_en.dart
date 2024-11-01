@@ -37,6 +37,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get signOut => 'Se déconnecter';
 
   @override
+  String get donneesgenerales => 'Données générales';
+
+  @override
   String get yourProfile => 'Votre profil';
 
   @override

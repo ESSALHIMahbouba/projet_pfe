@@ -37,6 +37,9 @@ class AppLocalizationsSi extends AppLocalizations {
   String get signOut => 'ඉවත් වන්න';
 
   @override
+  String get donneesgenerales => 'Données générales';
+
+  @override
   String get yourProfile => 'ඔබේ පැතිකඩ';
 
   @override

@@ -1,4 +1,5 @@
 import 'package:DREHATT_app/landing/views/ManageCarouselItemsPage.dart';
+import 'package:DREHATT_app/screens2/admin/sigweb2.dart';
 import 'package:DREHATT_app/screens2/jeojson/DrawShape.dart';
 import 'package:DREHATT_app/screens2/jeojson/DrawShape2.dart';
 import 'package:DREHATT_app/screens2/jeojson/formhtml.dart';
@@ -171,6 +172,21 @@ class _AdminDashboardState extends State<AdminDashboard> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => const SigWeb(
+                                  title:
+                                      'Sig web'), // Ajouter le paramètre de titre requis
+                            ),
+                          );
+                        },
+                      ),
+                      buildDashboardItem(
+                        context,
+                        'Données générales',
+                        'lib/assets/icons/me/isens_thumb-removebg-preview.png',
+                        () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const SigWebadmin(
                                   title:
                                       'Sig web'), // Ajouter le paramètre de titre requis
                             ),

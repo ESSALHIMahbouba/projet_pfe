@@ -1,5 +1,6 @@
 import 'package:DREHATT_app/screens2/permis%20de%20bati/HousingApplicationForm.dart';
 import 'package:DREHATT_app/screens2/homepage2.dart';
+import 'package:DREHATT_app/screens2/users/usersigweb.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
@@ -170,316 +171,124 @@ class _SettingsState extends State<MoreUser> {
                   colorBlendMode: BlendMode.darken,
                 ),
               ),
-              //1st ROW
               Column(
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      SizedBox(
-                        height: MediaQuery.of(context).size.height * 0.12,
-                        width: MediaQuery.of(context).size.width * 0.4,
-                        child: FilledButton(
-                          onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) =>  ClaimFormPage(),
-                              ),
-                            );
-                          },
-                          style: const ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(
-                                Color.fromARGB(255, 217, 237, 239)),
-                            foregroundColor: MaterialStatePropertyAll(
-                                Color.fromRGBO(7, 82, 96, 1)),
-                            shape: MaterialStatePropertyAll(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
-                                ),
-                              ),
-                            ),
-                          ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              SizedBox(
-                                height: 5,
-                              ),
-                              Icon(
-                                Icons.image_outlined,
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text(translation(context).reclamation,
-                                  textAlign: TextAlign.center),
-                            ],
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        height: MediaQuery.of(context).size.height * 0.12,
-                        width: MediaQuery.of(context).size.width * 0.4,
-                        child: FilledButton(
-                          onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) =>  const HousingApplicationForm(),
-                              ),
-                            );
-                          },
-                          style: const ButtonStyle(
-                            backgroundColor: MaterialStatePropertyAll(
-                                Color.fromARGB(255, 217, 237, 239)),
-                            foregroundColor: MaterialStatePropertyAll(
-                                Color.fromRGBO(7, 82, 96, 1)),
-                            shape: MaterialStatePropertyAll(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(20),
-                                ),
-                              ),
-                            ),
-                          ),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              SizedBox(
-                                height: 5,
-                              ),
-                              Icon(
-                                Icons.maps_home_work,
-                              ),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              Text(translation(context).housingApplicationForm,
-                                  textAlign: TextAlign.center),
-                            ],
-                          ),
-                        ),
-                      ),
-                      // const SizedBox(
-                      //   height: 20,
-                      // ),
-                      // SizedBox(
-                      //   height: MediaQuery.of(context).size.height * 0.12,
-                      //   width: MediaQuery.of(context).size.width * 0.4,
-                      //   child: FilledButton(
-                      //     onPressed: () async {
-                      //       await _getCurrentLocation();
-                      //       if (_currentPosition != null) {
-                      //         MapsLauncher.launchQuery(
-                      //             translation(context).nearby);
-                      //       }
-                      //     },
-                      //     style: const ButtonStyle(
-                      //       backgroundColor: MaterialStatePropertyAll(
-                      //           Color.fromARGB(255, 217, 237, 239)),
-                      //       foregroundColor: MaterialStatePropertyAll(
-                      //           Color.fromRGBO(7, 82, 96, 1)),
-                      //       shape: MaterialStatePropertyAll(
-                      //         RoundedRectangleBorder(
-                      //           borderRadius: BorderRadius.all(
-                      //             Radius.circular(20),
-                      //           ),
-                      //         ),
-                      //       ),
-                      //     ),
-                      //     child: Column(
-                      //       mainAxisAlignment: MainAxisAlignment.center,
-                      //       children: [
-                      //         SizedBox(
-                      //           height: 5,
-                      //         ),
-                      //         Icon(
-                      //           Icons.location_on_outlined,
-                      //         ),
-                      //         SizedBox(
-                      //           height: 10,
-                      //         ),
-                      //         Text(translation(context).nearby,
-                      //             textAlign: TextAlign.center),
-                      //       ],
-                      //     ),
-                      //   ),
-                      // ),
-                    ],
-                  ),
+  children: [
+    Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height * 0.12,
+          width: MediaQuery.of(context).size.width * 0.4,
+          child: FilledButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ClaimFormPage(),
+                ),
+              );
+            },
+            style: const ButtonStyle(
+              backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 217, 237, 239)),
+              foregroundColor: MaterialStatePropertyAll(Color.fromRGBO(7, 82, 96, 1)),
+              shape: MaterialStatePropertyAll(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                ),
+              ),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.image_outlined),
+                SizedBox(height: 10),
+                Text(
+                  translation(context).reclamation,
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ),
+        SizedBox(
+          height: MediaQuery.of(context).size.height * 0.12,
+          width: MediaQuery.of(context).size.width * 0.4,
+          child: FilledButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const HousingApplicationForm(),
+                ),
+              );
+            },
+            style: const ButtonStyle(
+              backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 217, 237, 239)),
+              foregroundColor: MaterialStatePropertyAll(Color.fromRGBO(7, 82, 96, 1)),
+              shape: MaterialStatePropertyAll(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                ),
+              ),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.maps_home_work),
+                SizedBox(height: 10),
+                Text(
+                  translation(context).housingApplicationForm,
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ],
+    ),
+    const SizedBox(height: 20),
+    Row(
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: [
+        SizedBox(
+          height: MediaQuery.of(context).size.height * 0.12,
+          width: MediaQuery.of(context).size.width * 0.4,
+          child: FilledButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const SigWeb2(title: 'Sig web'),
+                ),
+              );
+            },
+            style: const ButtonStyle(
+              backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 217, 237, 239)),
+              foregroundColor: MaterialStatePropertyAll(Color.fromRGBO(7, 82, 96, 1)),
+              shape: MaterialStatePropertyAll(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(20)),
+                ),
+              ),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.image_outlined),
+                SizedBox(height: 10),
+                Text(
+                  translation(context).donneesgenerales,
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ),
+      ],
+    ),
+    const SizedBox(height: 20),
 
-                  const SizedBox(
-                    height: 20,
-                  ),
 
-                  //     //2nd ROW
-
-                  //     Row(
-                  //       mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  //       children: [
-                  //         SizedBox(
-                  //           height: MediaQuery.of(context).size.height * 0.12,
-                  //           width: MediaQuery.of(context).size.width * 0.4,
-                  //           child: FilledButton(
-                  //             onPressed: () {
-                  //               Navigator.push(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                   builder: (context) => const BMI(),
-                  //                 ),
-                  //               );
-                  //             },
-                  //             style: const ButtonStyle(
-                  //               backgroundColor: MaterialStatePropertyAll(
-                  //                   Color.fromARGB(255, 217, 237, 239)),
-                  //               foregroundColor: MaterialStatePropertyAll(
-                  //                   Color.fromRGBO(7, 82, 96, 1)),
-                  //               shape: MaterialStatePropertyAll(
-                  //                 RoundedRectangleBorder(
-                  //                   borderRadius: BorderRadius.all(
-                  //                     Radius.circular(20),
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ),
-                  //             child: Column(
-                  //               mainAxisAlignment: MainAxisAlignment.center,
-                  //               children: [
-                  //                 SizedBox(
-                  //                   height: 5,
-                  //                 ),
-                  //                 Icon(
-                  //                   Icons.health_and_safety_outlined,
-                  //                 ),
-                  //                 SizedBox(
-                  //                   height: 10,
-                  //                 ),
-                  //                 Text(translation(context).bmi,
-                  //                     textAlign: TextAlign.center),
-                  //               ],
-                  //             ),
-                  //           ),
-                  //         ),
-                  //         const SizedBox(
-                  //           height: 20,
-                  //         ),
-                  //         SizedBox(
-                  //           height: MediaQuery.of(context).size.height * 0.12,
-                  //           width: MediaQuery.of(context).size.width * 0.4,
-                  //           child: FilledButton(
-                  //             onPressed: () {
-                  //               Navigator.push(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                   builder: (context) {
-                  //                     return const AlarmSettingsPage();
-                  //                   },
-                  //                 ),
-                  //               );
-                  //               // ScaffoldMessenger.of(context).showSnackBar(
-                  //               //   const SnackBar(
-                  //               //     backgroundColor:
-                  //               //         Color.fromARGB(255, 7, 83, 96),
-                  //               //     behavior: SnackBarBehavior.floating,
-                  //               //     duration: Duration(seconds: 2),
-                  //               //     content: Text(
-                  //               //       'Coming soon...',
-                  //               //     ),
-                  //               //   ),
-                  //               // );
-                  //             },
-                  //             style: const ButtonStyle(
-                  //               backgroundColor: MaterialStatePropertyAll(
-                  //                   Color.fromARGB(255, 217, 237, 239)),
-                  //               foregroundColor: MaterialStatePropertyAll(
-                  //                   Color.fromRGBO(7, 82, 96, 1)),
-                  //               shape: MaterialStatePropertyAll(
-                  //                 RoundedRectangleBorder(
-                  //                   borderRadius: BorderRadius.all(
-                  //                     Radius.circular(20),
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ),
-                  //             child: Column(
-                  //               mainAxisAlignment: MainAxisAlignment.center,
-                  //               children: [
-                  //                 SizedBox(
-                  //                   height: 5,
-                  //                 ),
-                  //                 Icon(
-                  //                   Icons.alarm_rounded,
-                  //                 ),
-                  //                 SizedBox(
-                  //                   height: 10,
-                  //                 ),
-                  //                 Text(translation(context).upalarm,
-                  //                     textAlign: TextAlign.center),
-                  //               ],
-                  //             ),
-                  //           ),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //     const SizedBox(
-                  //       height: 20,
-                  //     ),
-                  //     //3rd row
-                  //     Row(
-                  //       mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  //       children: [
-                  //         SizedBox(
-                  //           height: MediaQuery.of(context).size.height * 0.12,
-                  //           width: MediaQuery.of(context).size.width * 0.4,
-                  //           child: FilledButton(
-                  //             onPressed: () {
-                  //               Navigator.push(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                   builder: (context) => const Emergency(),
-                  //                 ),
-                  //               );
-                  //             },
-                  //             style: const ButtonStyle(
-                  //               backgroundColor: MaterialStatePropertyAll(
-                  //                   Color.fromARGB(255, 217, 237, 239)),
-                  //               foregroundColor: MaterialStatePropertyAll(
-                  //                   Color.fromRGBO(7, 82, 96, 1)),
-                  //               shape: MaterialStatePropertyAll(
-                  //                 RoundedRectangleBorder(
-                  //                   borderRadius: BorderRadius.all(
-                  //                     Radius.circular(20),
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ),
-                  //             child: Column(
-                  //               mainAxisAlignment: MainAxisAlignment.center,
-                  //               children: [
-                  //                 SizedBox(
-                  //                   height: 5,
-                  //                 ),
-                  //                 Icon(
-                  //                   Icons.call_outlined,
-                  //                 ),
-                  //                 SizedBox(
-                  //                   height: 10,
-                  //                 ),
-                  //                 Text(translation(context).emgcall,
-                  //                     textAlign: TextAlign.center),
-                  //               ],
-                  //           ),
-                  //           ),
-                  //         ),
-                  //       ],
-                  //     ),
-                  //     const SizedBox(
-                  //       height: 20,
-                  //     ),
-                  //   ],
-                  // ),
 
                   //3rd ROW
 

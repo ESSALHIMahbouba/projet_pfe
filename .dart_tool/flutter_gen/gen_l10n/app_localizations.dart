@@ -155,6 +155,12 @@ abstract class AppLocalizations {
   /// **'Se déconnecter'**
   String get signOut;
 
+  /// No description provided for @donneesgenerales.
+  ///
+  /// In en, this message translates to:
+  /// **'Données générales'**
+  String get donneesgenerales;
+
   /// No description provided for @yourProfile.
   ///
   /// In en, this message translates to:

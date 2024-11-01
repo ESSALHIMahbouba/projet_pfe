@@ -1,3 +1,4 @@
+import 'package:DREHATT_app/screens2/admin/sigweb2.dart';
 import 'package:DREHATT_app/screens2/jeojson/formhtml.dart';
 import 'package:DREHATT_app/screens2/users/ClaimsListPage.dart';
 import 'package:DREHATT_app/screens2/jeojson/DrawShape2.dart';
@@ -166,6 +167,21 @@ class _AgentDashboardState extends State<AgentDashboard> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => const SigWeb(
+                                  title:
+                                      'Sig web'), // Ajouter le paramètre de titre requis
+                            ),
+                          );
+                        },
+                      ),
+                       buildDashboardItem(
+                        context,
+                        'Données générales',
+                        'lib/assets/icons/me/isens_thumb-removebg-preview.png',
+                        () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => const SigWebadmin(
                                   title:
                                       'Sig web'), // Ajouter le paramètre de titre requis
                             ),
