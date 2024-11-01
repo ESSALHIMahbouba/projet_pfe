@@ -101,7 +101,7 @@ class _ShapeDetailsPageState extends State<ShapeDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Permis de Bâtiment Enregistrement '),
+        title: Text(' Enregistrement du Permis de Bâti '),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

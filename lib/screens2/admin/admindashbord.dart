@@ -195,7 +195,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                       buildDashboardItem(
                         context,
-                        'Permis de construire',
+                        'Permis de Bâtis',
                         'lib/assets/icons/me/permis_debati-removebg-preview.png',
                         () {
                           Navigator.push(
@@ -209,7 +209,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                        buildDashboardItem(
                         context,
-                        'Suivi des plans de lotissement',
+                        'Suivi des Plans de lotissement',
                         'lib/assets/icons/me/realisations-16918-removebg-preview.png',
                         () {
                           Navigator.push(
@@ -223,7 +223,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                         buildDashboardItem(
                         context,
-                        'Ajouter tiff ',
+                        'Ajouter Image Scannée  ',
                         'lib/assets/icons/me/ajout des images.png',
                         () {
                           Navigator.push(
@@ -265,7 +265,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                            buildDashboardItem(
                         context,
-                        'Voir les nouvelles',
+                        'Voir les actualitées',
                         'lib/assets/icons/me/news1.gif',
                         () {
                           Navigator.push(
@@ -278,7 +278,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                       buildDashboardItem(
                         context,
-                        'Voir les abonnés',
+                        'Voir les Abonnés',
                         'lib/assets/icons/me/subscribers.gif',
                         () {
                           Navigator.push(
@@ -291,7 +291,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                       buildDashboardItem(
                         context,
-                        'Liste des réclamations',
+                        'Liste des Réclamations',
                         'lib/assets/icons/me/admin4.gif',
                         () {
                           Navigator.push(
@@ -304,7 +304,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       ),
                       buildDashboardItem(
                         context,
-                        'Demandes de logement',
+                        'Demandes de Permis de Bâtis',
                         'lib/assets/icons/me/maps.gif',
                         () {
                           Navigator.push(

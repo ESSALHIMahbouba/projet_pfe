@@ -43,12 +43,13 @@ class _SigWebState extends State<SigWebadmin> {
     '0 fonts': Color(0xff93C572),
   };
 
-  void _onMapCreated(GoogleMapController controller) {
-    mapController = controller;
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      _showGeoJsonSelectionDialog2();
-    });
-  }
+ void _onMapCreated(GoogleMapController controller) {
+  mapController = controller;
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    loadGeoJsonFromStorage('limite.geojson'); // Remplacez 'nom_du_fichier.geojson' par le nom de votre fichier
+  });
+}
+
 
   LatLngBounds calculateBoundingBox(List<LatLng> points) {
     double? minLat, maxLat, minLon, maxLon;
