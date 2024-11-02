@@ -73,7 +73,7 @@ class _HtmlPagesListState extends State<HtmlPagesList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Gere les liste des plans '),
+        title: Text('Gérer la  liste des Images '),
       ),
       body: htmlPages.isEmpty
           ? Center(child: CircularProgressIndicator())

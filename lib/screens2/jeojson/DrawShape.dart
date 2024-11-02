@@ -215,7 +215,7 @@ class _MapDrawingPageState extends State<MapDrawingPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Permis de batis'),
+        title: Text('Permis de bâtis'),
         actions: [
           IconButton(
             icon: Icon(Icons.undo),
@@ -234,17 +234,13 @@ class _MapDrawingPageState extends State<MapDrawingPage> {
           IconButton(
             icon: Icon(Icons.save),
             onPressed: _confirmSave,
-            tooltip: 'Save',
+            tooltip: 'Enregistrer',
           ),
-          IconButton(
-            icon: Icon(Icons.calculate),
-            onPressed: _updateDisplayText,
-            tooltip: 'Update',
-          ),
+          
           IconButton(
             icon: Icon(Icons.refresh),
             onPressed: _fetchSavedShapes,
-            tooltip: 'Fetch Shapes',
+            tooltip: 'Liste des Demandes',
           ),
         ],
       ),
@@ -286,19 +282,19 @@ class _MapDrawingPageState extends State<MapDrawingPage> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.crop_square),
-            label: 'Polygon',
+            label: 'Polygone',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.circle),
-            label: 'Circle',
+            label: 'Cercle',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.show_chart),
-            label: 'Line',
+            label: 'Ligne',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.map),
-            label: 'Layer',
+            label: 'Fond de Carte',
           ),
         ],
         currentIndex: DrawShape.values.indexOf(selectedShape),
@@ -432,7 +428,7 @@ class _MapDrawingPageState extends State<MapDrawingPage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Confirm Save'),
+          title: Text('Confirmer lenregistrement'),
           content: Text('Are you sure you want to save this shape?'),
           actions: <Widget>[
             TextButton(

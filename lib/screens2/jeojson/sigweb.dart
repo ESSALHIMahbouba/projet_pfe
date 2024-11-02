@@ -502,7 +502,7 @@ class _SigWebState extends State<SigWeb> {
               MaterialPageRoute(builder: (context) => HtmlListPage()),
             );
           },
-          tooltip: 'Afficher HTML Local',
+          tooltip: 'Ajouter Image Scannée',
         ),
          
             IconButton(
@@ -513,7 +513,7 @@ class _SigWebState extends State<SigWeb> {
               MaterialPageRoute(builder: (context) => HtmlPagesList()),
             );
           },
-          tooltip: 'Afficher HTML Local',
+          tooltip: 'Liste des Images Scannées',
         ),
           IconButton(
             icon: const Icon(Icons.change_circle),
@@ -523,7 +523,7 @@ class _SigWebState extends State<SigWeb> {
                 MaterialPageRoute(builder: (context) => GeoJsonConverterPage()),
               );
             },
-            tooltip: 'convertisseur',
+            tooltip: 'Convertisseur',
           ),
           IconButton(
             icon: Icon(Icons.map_sharp),
@@ -533,22 +533,22 @@ class _SigWebState extends State<SigWeb> {
                 MaterialPageRoute(builder: (context) => KmlMapPage()),
               );
             },
-            tooltip: 'kml reader',
+            tooltip: 'Ajouter KML',
           ),
           IconButton(
             icon: Icon(Icons.file_upload),
             onPressed: _uploadGeoJsonFile,
-            tooltip: 'telecharger geojson fils ',
+            tooltip: 'Télécharger fichier Geojson ',
           ),
           IconButton(
             icon: Icon(Icons.file_open),
             onPressed: _showGeoJsonSelectionDialog,
-            tooltip: 'liste de paus',
+            tooltip: 'liste des PAUs',
           ),
           IconButton(
             icon: Icon(Icons.layers),
             onPressed: _showMapTypeSelectionDialog,
-            tooltip: 'changer layer ',
+            tooltip: 'Changer Fond de Carte ',
           ),
         ],
       ),

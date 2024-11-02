@@ -91,7 +91,7 @@ Future<void> _fetchHtmlContent(String title) async {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Liste des plans'),
+        title: Text('Liste des Images'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

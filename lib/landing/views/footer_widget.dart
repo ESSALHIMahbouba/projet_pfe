@@ -120,7 +120,7 @@ class FooterWidget extends StatelessWidget {
   void _subscribeToNewsletter(BuildContext context) async {
     try {
       if (_emailController.text.isNotEmpty) {
-        await FirebaseFirestore.instance.collection('subscribers').add({
+        await FirebaseFirestore.instance.collection('Subscribers').add({
           'email': _emailController.text.trim(),
           'timestamp': FieldValue.serverTimestamp(),
         });
@@ -131,7 +131,7 @@ class FooterWidget extends StatelessWidget {
           context: context,
           builder: (context) => AlertDialog(
             title: Text('Abonnement réussi'),
-            content: Text('Merci de vous être abonné à notre newsletter !'),
+            content: Text('Merci de vous être abonné à notre application !'),
             actions: [
               TextButton(
                 onPressed: () {
@@ -160,7 +160,7 @@ class FooterWidget extends StatelessWidget {
         );
       }
     } catch (e) {
-      print('Erreur lors de l\'abonnement à la newsletter : $e');
+      print('Erreur lors de l\'abonnement à l\'application : $e');
     }
   }
 }

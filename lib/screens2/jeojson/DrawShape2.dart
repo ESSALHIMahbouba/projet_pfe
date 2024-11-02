@@ -318,7 +318,7 @@ double _calculateTotalDistance(List<LatLng> points) {
     context: context,
     builder: (context) {
       return AlertDialog(
-        title: Text('Save Shape'),
+        title: Text('Enregistrer la Forme'),
         content: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.min,

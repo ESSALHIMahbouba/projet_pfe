@@ -22,12 +22,14 @@ class _HousingApplicationFormState extends State<HousingApplicationForm> {
   File? _selectedFile;
   String? _selectedSector;
   final List<String> _sectors = [
-    'Sector 1',
-    'Sector 2',
-    'Sector 3',
-    'Sector 4',
-    'Sector 5',
-    'Sector 6'
+    'Délégation de Dhehiba (معتمدية الذهيبة)',
+    'Délégation de Smar (معتمدية الصمار)',
+    'Délégation de Bir Lahmar (معتمدية بئر الأحمر)',
+    'Délégation de Tataouine Sud (معتمدية تطاوين الجنوبية)',
+    'Délégation de Tataouine Nord (معتمدية تطاوين الشمالية)',
+    'Délégation de Remada (معتمدية رمادة)',
+    'Délégation de Ghomrassen (معتمدية غمراسن)',
+    'ben mhira',
   ];
   late GoogleMapController _mapController;
 

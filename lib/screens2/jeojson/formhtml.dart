@@ -29,11 +29,11 @@ class _AddHtmlFormPageState extends State<AddHtmlFormPage> {
 
       if (response.statusCode == 200) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Page HTML ajoutée avec succès !')),
+          SnackBar(content: Text('PImage ajoutée avec succès !')),
         );
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Erreur lors de l\'ajout de la page HTML.')),
+          SnackBar(content: Text('Erreur lors de l\'ajout de l\'image.')),
         );
       }
     }
@@ -43,7 +43,7 @@ class _AddHtmlFormPageState extends State<AddHtmlFormPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Ajouter une page HTML'),
+        title: Text('Ajouter une Image Scannée'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
