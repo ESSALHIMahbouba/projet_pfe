@@ -505,12 +505,12 @@ class _SigWebState extends State<SigWebadmin> {
           IconButton(
             icon: Icon(Icons.file_open),
             onPressed: _showGeoJsonSelectionDialog2,
-            tooltip: 'liste des données',
+            tooltip: 'Liste des données',
           ),
           IconButton(
             icon: Icon(Icons.layers),
             onPressed: _showMapTypeSelectionDialog,
-            tooltip: 'changer fond de carte ',
+            tooltip: 'Changer fond de carte ',
           ),
         ],
       ),
