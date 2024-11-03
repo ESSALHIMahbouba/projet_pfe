@@ -124,7 +124,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get reclamation => 'Réclamation';
 
   @override
-  String get housingApplicationForm => 'Formulaire de demande de logement';
+  String get housingApplicationForm => 'Demande de Permis de Bâti';
 
   @override
   String get photoHeading => 'Enregistrez une photo de votre ordonnance';

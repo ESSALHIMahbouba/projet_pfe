@@ -52678,28 +52678,28 @@ a1.f.dJ(A.eA(null,null,null,null,null,B.p,null,A.x("Please fill all fields, add 
 case 3:return A.o(null,r)
 case 1:return A.n(p,r)}})
 return A.p($async$Ez,r)},
-F(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1=A.x("Submit a Claim",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
+F(a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1=A.x("Faire une r\xe9clamation",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
 a1=A.dI(a0,A.N(a2).ax.b,a0,a0,a1)
-s=A.im(!1,a.e,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Title",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0,1,a0,a0,new A.aRZ())
+s=A.im(!1,a.e,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Titre",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0,1,a0,a0,new A.aRZ())
 r=A.ax(a0,10,a0)
-q=A.im(!1,a.f,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Content",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0,5,a0,a0,new A.aS_())
+q=A.im(!1,a.f,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Contenu",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,a0,5,a0,a0,new A.aS_())
 p=A.ax(a0,10,a0)
-o=A.im(!1,a.r,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Phone Number",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,B.agD,1,a0,a0,new A.aS0())
+o=A.im(!1,a.r,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Num\xe9ro de T\xe9l\xe9phone",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,B.agD,1,a0,a0,new A.aS0())
 n=A.ax(a0,10,a0)
 m=A.im(!1,a.w,A.de(a0,new A.em(4,A.ek(10),B.cA),a0,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,"Email",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a0,B.lo,1,a0,a0,new A.aS1())
 l=A.ax(a0,10,a0)
-if(a.x==null&&a.y==null)k=A.x("No image selected.",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
+if(a.x==null&&a.y==null)k=A.x("Pas d'image s\xe9lectionn\xe9e.",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
 else{k=a.y
 k.toString
-k=A.Zh(k,a0,a0,a0,a0)}j=A.H6(A.bY(B.Um,a0,a0,a0),A.x("Pick Image",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a.gavH(),A.H7(a0,a0,A.N(a2).ax.b,a0,a0,a0,a0,a0,a0,B.i,a0,a0,a0,a0,new A.df(A.ek(10),B.q),a0,a0,a0,a0))
+k=A.Zh(k,a0,a0,a0,a0)}j=A.H6(A.bY(B.Um,a0,a0,a0),A.x("Ajouter .",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a.gavH(),A.H7(a0,a0,A.N(a2).ax.b,a0,a0,a0,a0,a0,a0,B.i,a0,a0,a0,a0,new A.df(A.ek(10),B.q),a0,a0,a0,a0))
 i=A.ax(a0,10,a0)
-h=A.H6(A.bY(B.tQ,a0,a0,a0),A.x("Get Current Location",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a.gane(),A.H7(a0,a0,A.N(a2).ax.b,a0,a0,a0,a0,a0,a0,B.i,a0,a0,a0,a0,new A.df(A.ek(10),B.q),a0,a0,a0,a0))
+h=A.H6(A.bY(B.tQ,a0,a0,a0),A.x("S\xe9lection votre Localisation actuelle.",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),a.gane(),A.H7(a0,a0,A.N(a2).ax.b,a0,a0,a0,a0,a0,a0,B.i,a0,a0,a0,a0,new A.df(A.ek(10),B.q),a0,a0,a0,a0))
 g=A.ax(a0,20,a0)
 f=a.z
-f=f==null?A.x("No location selected.",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0):A.x("Location: "+A.i(f.a)+", "+A.i(f.b),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
+f=f==null?A.x("Pas de localisation s\xe9lectionn\xe9e.",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0):A.x("Location: "+A.i(f.a)+", "+A.i(f.b),a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
 e=A.ax(a0,20,a0)
 if(a.Q)d=A.fY(a0,a0,a0)
-else{d=A.x("Submit Claim",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
+else{d=A.x("Soumettre",a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)
 c=A.N(a2)
 b=A.bM(a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,16,a0,a0,a0,a0,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0)
 b=A.fD(!1,d,a0,a0,B.aD,a0,a0,a0,a0,a.gayU(),a0,A.H7(a0,a0,c.ax.b,a0,a0,a0,a0,a0,a0,B.i,a0,a0,new A.ae(0,15,0,15),a0,new A.df(A.ek(10),B.q),a0,a0,b,a0))
@@ -110443,7 +110443,7 @@ gqL(){return"Se d\xe9connecter"},
 ga3Z(){return"Donn\xe9es g\xe9n\xe9rales"},
 ga5g(){return"Accueil"},
 ga7m(){return"R\xe9clamation"},
-ga5h(){return"Formulaire de demande de logement"}}
+ga5h(){return"Demande de Permis de B\xe2ti"}}
 A.TV.prototype={
 gJC(){return"\u0dc3\u0dd0\u0d9a\u0dc3\u0dd4\u0db8\u0dca"},
 ga1Y(){return"\u0d9c\u0dd2\u0dab\u0dd4\u0db8\u0dca \u0dc3\u0dd0\u0d9a\u0dc3\u0dd4\u0db8\u0dca"},

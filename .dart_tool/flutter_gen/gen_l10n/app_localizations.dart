@@ -332,7 +332,7 @@ abstract class AppLocalizations {
   /// No description provided for @housingApplicationForm.
   ///
   /// In en, this message translates to:
-  /// **'Formulaire de demande de logement'**
+  /// **'Demande de Permis de Bâti'**
   String get housingApplicationForm;
 
   /// No description provided for @photoHeading.
