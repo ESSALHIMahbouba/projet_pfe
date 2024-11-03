@@ -12,15 +12,11 @@ class UnbordingContent {
 
 List<UnbordingContent> contents = [
   UnbordingContent(
-      title: 'Remplir des formulaires de demande de logement.!',
+      title: ' Soumettre un demande de Permis de Bâti.',
       image: 'lib/assets/icons/me/service.gif',
       description:
-          "Permettez aux utilisateurs de remplir et soumettre facilement des demandes de logement en ligne et de suivre l'état de leur demande en temps réel."),
-  UnbordingContent(
-      title: 'Signaler des problèmes de maintenance dans les propriétés appartenant au ministère.',
-      image: 'lib/assets/icons/me/admin1.gif',
-      description:
-          "Les utilisateurs peuvent signaler facilement des problèmes de maintenance dans les propriétés du ministère et suivre l'avancement des réparations."),
+          "Permettez aux utilisateurs de remplir et soumettre facilement des demandes de prmis de bâti en ligne et de suivre l'état de leur demande en temps réel."),
+
   UnbordingContent(
       title: 'Demander des informations ',
       image: 'lib/assets/icons/me/admin4.gif',
