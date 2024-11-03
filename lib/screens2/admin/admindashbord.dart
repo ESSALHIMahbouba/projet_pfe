@@ -181,7 +181,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
                       buildDashboardItem(
                         context,
                         'Données générales',
-                        'lib/assets/icons/me/isens_thumb-removebg-preview.png',
+                        '/lib/assets/icons/me/donnees.png',
                         () {
                           Navigator.push(
                             context,
