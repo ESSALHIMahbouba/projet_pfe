@@ -391,7 +391,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Submit a Claim'),
+        title: Text('Faire une réclamation'),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       body: SingleChildScrollView(
@@ -404,7 +404,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
               TextFormField(
                 controller: _titleController,
                 decoration: InputDecoration(
-                  labelText: 'Title',
+                  labelText: 'Titre',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -420,7 +420,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
               TextFormField(
                 controller: _contentController,
                 decoration: InputDecoration(
-                  labelText: 'Content',
+                  labelText: 'Contenu',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -437,7 +437,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
               TextFormField(
                 controller: _phoneController,
                 decoration: InputDecoration(
-                  labelText: 'Phone Number',
+                  labelText: 'Numéro de Téléphone',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -471,14 +471,14 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
               ),
               SizedBox(height: 10),
               _image == null && _imageUrl == null
-                  ? Text('No image selected.')
+                  ? Text('Pas d\'image sélectionnée.')
                   : kIsWeb
                       ? Image.network(_imageUrl!)
                       : Image.file(File(_image!.path)),
               ElevatedButton.icon(
                 onPressed: _pickImage,
                 icon: Icon(Icons.image),
-                label: Text('Pick Image'),
+                label: Text('Ajouter .'),
                 style: ElevatedButton.styleFrom(
                   foregroundColor: Colors.white,
                   backgroundColor: Theme.of(context).colorScheme.primary,
@@ -491,7 +491,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
               ElevatedButton.icon(
                 onPressed: _getCurrentLocation,
                 icon: Icon(Icons.location_on),
-                label: Text('Get Current Location'),
+                label: Text('Sélection votre Localisation actuelle.'),
                 style: ElevatedButton.styleFrom(
                   foregroundColor: Colors.white,
                   backgroundColor: Theme.of(context).colorScheme.primary,
@@ -502,7 +502,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
               ),
               SizedBox(height: 20),
               _position == null
-                  ? Text('No location selected.')
+                  ? Text('Pas de localisation sélectionnée.')
                   : Text(
                       'Location: ${_position!.latitude}, ${_position!.longitude}'),
               SizedBox(height: 20),
@@ -510,7 +510,7 @@ class _ClaimFormPageState extends State<ClaimFormPage> {
                   ? CircularProgressIndicator()
                   : ElevatedButton(
                       onPressed: _submitClaim,
-                      child: Text('Submit Claim'),
+                      child: Text('Soumettre'),
                       style: ElevatedButton.styleFrom(
                         foregroundColor: Colors.white,
                         backgroundColor: Theme.of(context).colorScheme.primary,
