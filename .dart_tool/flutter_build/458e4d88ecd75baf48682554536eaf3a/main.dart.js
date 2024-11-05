@@ -55526,16 +55526,16 @@ break
 case 7:case 3:return A.o(null,r)
 case 1:return A.n(p,r)}})
 return A.p($async$EB,r)},
-F(a){var s,r,q,p,o,n,m=this,l=null,k=A.dI(l,l,5,l,A.x("Add News",l,l,l,l,l,l,l,l,A.bS().$1$fontWeight(B.Y),l,l,l)),j=A.bS().$1$color(B.b8)
-j=A.im(!1,m.e,A.de(l,new A.em(4,A.ek(20),B.cA),l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,j,"Title",l,l,l,l,l,l,l,l,l,l,l,l,l),l,l,1,l,l,new A.aON())
+F(a){var s,r,q,p,o,n,m=this,l=null,k=A.dI(l,l,5,l,A.x("Ajouter une Actualit\xe9",l,l,l,l,l,l,l,l,A.bS().$1$fontWeight(B.Y),l,l,l)),j=A.bS().$1$color(B.b8)
+j=A.im(!1,m.e,A.de(l,new A.em(4,A.ek(20),B.cA),l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,j,"Titre",l,l,l,l,l,l,l,l,l,l,l,l,l),l,l,1,l,l,new A.aON())
 s=A.ax(l,20,l)
 r=A.bS().$1$color(B.b8)
-r=A.im(!1,m.f,A.de(l,new A.em(4,A.ek(20),B.cA),l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,r,"Content",l,l,l,l,l,l,l,l,l,l,l,l,l),l,l,5,l,l,new A.aOO())
+r=A.im(!1,m.f,A.de(l,new A.em(4,A.ek(20),B.cA),l,l,l,l,l,l,!0,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,l,r,"Contenu",l,l,l,l,l,l,l,l,l,l,l,l,l),l,l,5,l,l,new A.aOO())
 q=A.ax(l,30,l)
 p=m.r
 o=p?l:m.gayW()
 n=A.lJ(l,l,l,new A.aY(new A.aOP(a),t.mN),new A.bw(2,t.YI),l,l,l,l,l,l,l,l,l,l,l,l,new A.bw(new A.df(A.ek(20),B.q),t._o),l,l,l,l,l,l)
-return A.d3(k,A.fK(A.YB(l,A.aW(A.a([j,s,r,q,A.ax(A.fD(!1,p?A.fY(l,l,new A.uI(B.i,t.ZU)):A.x("Submit",l,l,l,l,l,l,l,l,A.bS().$3$color$fontSize$fontWeight(B.i,20,B.Y),l,l,l),l,l,B.aD,l,l,l,l,o,l,n),55,1/0)],t.p),B.a5,B.m,B.l),m.d),B.Th,B.S),l,l)}}
+return A.d3(k,A.fK(A.YB(l,A.aW(A.a([j,s,r,q,A.ax(A.fD(!1,p?A.fY(l,l,new A.uI(B.i,t.ZU)):A.x("Soumettre",l,l,l,l,l,l,l,l,A.bS().$3$color$fontSize$fontWeight(B.i,20,B.Y),l,l,l),l,l,B.aD,l,l,l,l,o,l,n),55,1/0)],t.p),B.a5,B.m,B.l),m.d),B.Th,B.S),l,l)}}
 A.aOL.prototype={
 $0(){this.a.r=!0},
 $S:0}
@@ -55555,7 +55555,7 @@ $1(a){return A.N(this.a).ax.b},
 $S:8}
 A.Bb.prototype={}
 A.vJ.prototype={
-F(a){var s=null,r=A.dI(s,s,s,s,A.x("News List",s,s,s,s,s,s,s,s,s,s,s,s)),q=$.aa,p=(q==null?$.aa=$.bj():q).bC("[DEFAULT]")
+F(a){var s=null,r=A.dI(s,s,s,s,A.x("Liste des Actualit\xe9s",s,s,s,s,s,s,s,s,s,s,s,s)),q=$.aa,p=(q==null?$.aa=$.bj():q).bC("[DEFAULT]")
 A.aJ(p,$.br(),!0)
 q=A.ds(new A.b5(p))
 return A.d3(r,A.nM(new A.auD(this),A.dw(q,q.gcX().dm("news")).mG(),t.l7),s,s)}}
@@ -55690,7 +55690,7 @@ A.aWQ.prototype={
 $0(){this.a.y=this.b},
 $S:0}
 A.vU.prototype={
-F(a){var s=null,r=A.dI(s,s,s,s,A.x("Housing Applications Liste",s,s,s,s,s,s,s,s,s,s,s,s)),q=$.aa,p=(q==null?$.aa=$.bj():q).bC("[DEFAULT]")
+F(a){var s=null,r=A.dI(s,s,s,s,A.x("Liste des demandes de permis de b\xe2ti",s,s,s,s,s,s,s,s,s,s,s,s)),q=$.aa,p=(q==null?$.aa=$.bj():q).bC("[DEFAULT]")
 A.aJ(p,$.br(),!0)
 q=A.ds(new A.b5(p))
 return A.d3(r,A.nM(new A.awD(),A.dw(q,q.gcX().dm("applications")).mG(),t.l7),s,s)}}

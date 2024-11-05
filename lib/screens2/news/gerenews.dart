@@ -25,7 +25,7 @@ class GereListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('News List'),
+        title: Text('Liste des Actualités'),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance.collection('news').snapshots(),

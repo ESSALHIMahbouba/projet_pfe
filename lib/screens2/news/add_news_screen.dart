@@ -75,7 +75,7 @@ class _AddNewsScreenState extends State<AddNewsScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Add News',
+          'Ajouter une Actualité',
           style: GoogleFonts.roboto(
             fontWeight: FontWeight.w600,
           ),
@@ -93,7 +93,7 @@ class _AddNewsScreenState extends State<AddNewsScreen> {
               TextFormField(
                 controller: _titleController,
                 decoration: InputDecoration(
-                  labelText: 'Title',
+                  labelText: 'Titre',
                   labelStyle: GoogleFonts.roboto(
                     color: const Color.fromARGB(255, 16, 15, 15),
                   ),
@@ -113,7 +113,7 @@ class _AddNewsScreenState extends State<AddNewsScreen> {
               TextFormField(
                 controller: _contentController,
                 decoration: InputDecoration(
-                  labelText: 'Content',
+                  labelText: 'Contenu',
                   labelStyle: GoogleFonts.roboto(
                     color: const Color.fromARGB(255, 16, 15, 15),
                   ),
@@ -155,7 +155,7 @@ class _AddNewsScreenState extends State<AddNewsScreen> {
                               AlwaysStoppedAnimation<Color>(Colors.white),
                         )
                       : Text(
-                          'Submit',
+                          'Soumettre',
                           style: GoogleFonts.roboto(
                             fontSize: 20,
                             fontWeight: FontWeight.w600,

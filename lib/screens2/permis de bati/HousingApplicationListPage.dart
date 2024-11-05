@@ -7,7 +7,7 @@ class HousingApplicationListPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Housing Applications Liste'),
+        title: Text('Liste des demandes de permis de bâti'),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance.collection('applications').snapshots(),
