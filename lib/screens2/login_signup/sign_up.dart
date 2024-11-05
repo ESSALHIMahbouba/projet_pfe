@@ -201,7 +201,7 @@ Future signUp() async {
                         Expanded(
                           flex: 1,
                           child: Text(
-                            'Let\'s \nGet Started',
+                            'Bienvenue',
                             style: GoogleFonts.roboto(
                               fontSize: 35,
                               height: 1.0,
@@ -236,8 +236,8 @@ Future signUp() async {
 
                     //name
                     Text_Field(
-                      label: 'Name',
-                      hint: 'FirstName LastName',
+                      label: 'Nom',
+                      hint: 'Nom et Prénom',
                       isPassword: false,
                       keyboard: TextInputType.text,
                       txtEditController: _nameController,
@@ -274,7 +274,7 @@ Future signUp() async {
                     //email
                     Text_Field(
                       label: 'Email',
-                      hint: 'name@email.com',
+                      hint: 'nom@email.com',
                       isPassword: false,
                       keyboard: TextInputType.emailAddress,
                       txtEditController: _emailController,
@@ -310,8 +310,8 @@ Future signUp() async {
 
                     //password
                     Text_Field(
-                      label: 'Password',
-                      hint: 'Password',
+                      label: 'Mot de passe',
+                      hint: 'Mot de passe',
                       isPassword: true,
                       keyboard: TextInputType.visiblePassword,
                       txtEditController: _passwordController,
@@ -347,8 +347,8 @@ Future signUp() async {
 
                     //confirm password
                     Text_Field(
-                      label: 'Confirm Password',
-                      hint: 'Password',
+                      label: 'Confirmer Mot de passe',
+                      hint: 'Mot de pass',
                       isPassword: true,
                       keyboard: TextInputType.visiblePassword,
                       txtEditController: _confirmpasswordController,
@@ -445,7 +445,7 @@ Future signUp() async {
                                   width: 3,
                                 ),
                                 Text(
-                                  'Account created successfully!',
+                                  'Compte créé avec succès!',
                                   style: GoogleFonts.roboto(
                                     fontSize: 15,
                                     fontWeight: FontWeight.w600,
@@ -482,7 +482,7 @@ Future signUp() async {
                         ),
                         child: !isLoading
                             ? Text(
-                                'Sign Up',
+                                'S\'inscrire',
                                 style: GoogleFonts.roboto(
                                   fontSize: 25,
                                   fontWeight: FontWeight.w600,
@@ -499,7 +499,7 @@ Future signUp() async {
                     ),
 
                     Text(
-                      'or',
+                      'Ou',
                       style: GoogleFonts.roboto(
                         fontSize: 15,
                         color: const Color.fromARGB(255, 67, 63, 63),
@@ -556,7 +556,7 @@ Future signUp() async {
                         ),
                         label: !isLoading
                             ? Text(
-                                'Sign up with Google',
+                                'Connecter avec Google',
                                 style: GoogleFonts.roboto(
                                   fontSize: 20,
                                   color: const Color.fromARGB(255, 7, 82, 96),
@@ -575,7 +575,7 @@ Future signUp() async {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'Already have an account?',
+                          'Vous avez déjà un compte?',
                           style: GoogleFonts.roboto(
                             fontSize: 15,
                             color: const Color.fromARGB(255, 67, 63, 63),
@@ -608,7 +608,7 @@ Future signUp() async {
                             ),
                           ),
                           child: Text(
-                            'Sign In',
+                            'Se connecter',
                             style: GoogleFonts.roboto(
                               fontSize: 15,
                               fontWeight: FontWeight.w700,

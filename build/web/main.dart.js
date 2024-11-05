@@ -52491,7 +52491,7 @@ A.aJ(r,$.br(),!0)
 return new A.aac(A.fF(new A.b5(r)).gf6())}}
 A.aac.prototype={
 F(a){var s=null
-return A.d3(new A.t6(A.dI(s,s,s,s,s),B.it,s),A.mk(!0,A.ci([B.U9,B.a9F][this.e],s,s),B.T,!0),A.bik(B.rl,A.a([A.aEp(B.u_,"Home",B.tY),A.aEp(B.tZ,"More ",B.UT)],t.p),new A.aTK(this),this.e),s)}}
+return A.d3(new A.t6(A.dI(s,s,s,s,s),B.it,s),A.mk(!0,A.ci([B.U9,B.a9F][this.e],s,s),B.T,!0),A.bik(B.rl,A.a([A.aEp(B.u_,"Accueil",B.tY),A.aEp(B.tZ,"Plus ",B.UT)],t.p),new A.aTK(this),this.e),s)}}
 A.aTK.prototype={
 $1(a){var s
 switch(a){case 0:break
@@ -52526,7 +52526,7 @@ p=A.baX(B.cl,B.r,B.o_,B.pr)
 o=m.d
 p=A.bd(B.O,new A.aH(B.aB,A.bbZ("en",r,B.bF,o.a,q,p,new A.aWN(m),new A.aWO(m)),l),B.j,l,l,l,l,l,l,l,l,l,l)
 o=A.x(B.c.V(J.cG(o.a),0,10),l,l,l,l,l,l,l,l,A.bS().$2$fontSize$fontWeight(25,B.Y),l,l,l)
-q=A.x("News",l,l,l,l,B.Fl,l,l,l,A.bS().$2$fontSize$fontWeight(25,B.Y),l,l,l)
+q=A.x("Actualit\xe9s",l,l,l,l,B.Fl,l,l,l,A.bS().$2$fontSize$fontWeight(25,B.Y),l,l,l)
 r=$.aa
 n=(r==null?$.aa=$.bj():r).bC("[DEFAULT]")
 A.aJ(n,$.br(),!0)
@@ -54743,7 +54743,7 @@ e=t.p
 d=A.bQ(A.a([A.x("R\xf4le d'agent :",a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1),new A.LQ(a0.Q,new A.aUY(a0),a1,B.aqk,!1,a1)],e),B.n,B.m,B.l,a1)
 c=A.ax(a1,30,a1)
 b=A.lJ(a1,a1,a1,new A.aY(new A.aUZ(a0,a6),t.mN),new A.bw(2,t.YI),a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,a1,new A.bw(new A.df(A.ek(20),B.q),t._o),a1,a1,a1,a1,a1,a1)
-a=!a0.y?A.x("Save",a1,a1,a1,a1,a1,a1,a1,a1,A.bM(a1,a1,B.i,a1,a1,a1,a1,a1,a1,a1,a1,25,a1,a1,B.Y,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1,a1):A.fY(a1,a1,new A.uI(B.i,t.ZU))
+a=!a0.y?A.x("Enregistrer",a1,a1,a1,a1,a1,a1,a1,a1,A.bM(a1,a1,B.i,a1,a1,a1,a1,a1,a1,a1,a1,25,a1,a1,B.Y,a1,a1,!0,a1,a1,a1,a1,a1,a1,a1,a1),a1,a1,a1):A.fY(a1,a1,new A.uI(B.i,t.ZU))
 return A.d3(a2,A.fK(A.aW(A.a([a3,a5,a4,s,r,q,p,o,m,k,n,i,j,l,h,g,f,d,c,A.ax(A.fD(!1,a,a1,a1,B.aD,a1,a1,a1,a1,a0.gRI(a0),a1,b),55,1/0)],e),B.a5,B.m,B.l),new A.ae(35,0,35,0),B.S),a1,a1)}}
 A.aV_.prototype={
 $0(){this.a.y=!0},
@@ -55357,14 +55357,14 @@ r=s.x
 r.X$=q
 r.R$=0
 s.aK()},
-F(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c="Password",b=t.p,a=A.bQ(A.a([A.eX(A.x("Let's \nGet Started",d,d,d,d,d,d,d,d,A.bS().$3$color$fontSize$height(B.b8,35,1),d,d,d),1),A.aW(A.a([B.u2,A.x("DREHATT",d,d,d,d,d,d,d,d,A.b8C().$3$color$fontSize$fontWeight(B.b2,20,B.Y),d,d,d)],b),B.n,B.m,B.l)],b),B.n,B.m,B.l,d),a0=e.as
+F(a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c="Mot de passe",b=t.p,a=A.bQ(A.a([A.eX(A.x("Bienvenue",d,d,d,d,d,d,d,d,A.bS().$3$color$fontSize$height(B.b8,35,1),d,d,d),1),A.aW(A.a([B.u2,A.x("DREHATT",d,d,d,d,d,d,d,d,A.b8C().$3$color$fontSize$fontWeight(B.b2,20,B.Y),d,d,d)],b),B.n,B.m,B.l)],b),B.n,B.m,B.l,d),a0=e.as
 a0===$&&A.b()
-a0=A.kw(a0,"FirstName LastName",!1,B.cU,"Name",e.r)
+a0=A.kw(a0,"Nom et Pr\xe9nom",!1,B.cU,"Nom",e.r)
 s=e.ch
 s=A.jM(new A.db(B.b5,d,d,new A.aH(B.fh,A.x("Enter a valid name",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.bG,12),B.M,d,d),d),d),!0,!0,!0,s)
 r=e.y
 r===$&&A.b()
-r=A.kw(r,"name@email.com",!1,B.lo,"Email",e.d)
+r=A.kw(r,"nom@email.com",!1,B.lo,"Email",e.d)
 q=e.ay
 q=A.jM(new A.db(B.b5,d,d,new A.aH(B.fh,A.x("Enter a valid email address",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.bG,12),B.M,d,d),d),d),!0,!0,!0,q)
 p=e.z
@@ -55374,21 +55374,21 @@ o=e.CW
 o=A.jM(new A.db(B.b5,d,d,new A.aH(B.fh,A.x("Enter a strong password",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.bG,12),B.M,d,d),d),d),!0,!0,!0,o)
 n=e.Q
 n===$&&A.b()
-n=A.kw(n,c,!0,B.Lj,"Confirm Password",e.f)
+n=A.kw(n,"Mot de pass",!0,B.Lj,"Confirmer Mot de passe",e.f)
 m=e.cx
 m=A.jM(new A.db(B.b5,d,d,new A.aH(B.fh,A.x("Passwords do not match",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.bG,12),B.M,d,d),d),d),!0,!0,!0,m)
 l=e.dx
 l=A.jM(new A.db(B.b5,d,d,new A.aH(B.T,A.na(B.bw,A.bQ(A.a([B.jB,B.eJ,A.x(e.fr,d,d,d,d,d,d,d,d,A.bS().$3$color$fontSize$fontWeight(B.bG,15,B.Y),B.M,d,d)],b),B.n,B.m,B.l,d),B.bG),d),d),!0,!1,!0,l)
 k=e.dy
-k=A.jM(new A.db(B.b5,d,d,new A.aH(B.T,A.na(B.bw,A.bQ(A.a([B.u0,B.eJ,A.x("Account created successfully!",d,d,d,d,d,d,d,d,A.bS().$3$color$fontSize$fontWeight(B.iU,15,B.Y),B.M,d,d)],b),B.n,B.m,B.l,d),B.iU),d),d),!0,!1,!0,k)
-j=!e.cy?A.x("Sign Up",d,d,d,d,d,d,d,d,A.bS().$2$fontSize$fontWeight(25,B.Y),d,d,d):B.mi
+k=A.jM(new A.db(B.b5,d,d,new A.aH(B.T,A.na(B.bw,A.bQ(A.a([B.u0,B.eJ,A.x("Compte cr\xe9\xe9 avec succ\xe8s!",d,d,d,d,d,d,d,d,A.bS().$3$color$fontSize$fontWeight(B.iU,15,B.Y),B.M,d,d)],b),B.n,B.m,B.l,d),B.iU),d),d),!0,!1,!0,k)
+j=!e.cy?A.x("S'inscrire",d,d,d,d,d,d,d,d,A.bS().$2$fontSize$fontWeight(25,B.Y),d,d,d):B.mi
 j=A.ax(A.re(j,e.gabJ(),B.dq),55,1/0)
-i=A.x("or",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.iY,15),d,d,d)
-h=!e.cy?A.x("Sign up with Google",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.b2,20),d,d,d):B.qM
+i=A.x("Ou",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.iY,15),d,d,d)
+h=!e.cy?A.x("Connecter avec Google",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.b2,20),d,d,d):B.qM
 h=A.ax(A.bgP(B.TE,h,new A.b3l(e,a1),B.dq),55,1/0)
-g=A.x("Already have an account?",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.iY,15),d,d,d)
+g=A.x("Vous avez d\xe9j\xe0 un compte?",d,d,d,d,d,d,d,d,A.bS().$2$color$fontSize(B.iY,15),d,d,d)
 f=A.lJ(d,d,d,B.bl,B.dS,d,d,d,d,d,d,d,d,d,d,new A.bw(B.T,t.WY),d,B.ps,d,d,d,d,d,d)
-return A.d3(d,A.mk(!0,A.bd(d,A.ci(A.na(B.a1,A.fK(A.aW(A.a([a,B.p_,a0,B.iu,s,B.cw,r,B.iu,q,B.cw,p,B.iu,o,B.cw,n,B.iu,m,l,B.cw,k,j,B.cv,i,B.cv,h,B.bW,A.bQ(A.a([g,A.fD(!1,A.x("Sign In",d,d,d,d,d,d,d,d,A.bS().$2$fontSize$fontWeight(15,B.aq),d,d,d),d,d,B.aD,d,d,d,d,new A.b3m(a1),d,f)],b),B.n,B.bq,B.l,d)],b),B.n,B.m,B.ar),B.n2,B.S),B.iW),d,d),B.j,d,d,d,d,d,B.T,d,d,d,d),B.T,!0),d,d)},
+return A.d3(d,A.mk(!0,A.bd(d,A.ci(A.na(B.a1,A.fK(A.aW(A.a([a,B.p_,a0,B.iu,s,B.cw,r,B.iu,q,B.cw,p,B.iu,o,B.cw,n,B.iu,m,l,B.cw,k,j,B.cv,i,B.cv,h,B.bW,A.bQ(A.a([g,A.fD(!1,A.x("Se connecter",d,d,d,d,d,d,d,d,A.bS().$2$fontSize$fontWeight(15,B.aq),d,d,d),d,d,B.aD,d,d,d,d,new A.b3m(a1),d,f)],b),B.n,B.bq,B.l,d)],b),B.n,B.m,B.ar),B.n2,B.S),B.iW),d,d),B.j,d,d,d,d,d,B.T,d,d,d,d),B.T,!0),d,d)},
 wu(a){switch(a){case"email-already-in-use":return"Email already used. Go to Sign In page."
 case"operation-not-allowed":return"Operation is not allowed."
 case"invalid-email":return"Email address is invalid."

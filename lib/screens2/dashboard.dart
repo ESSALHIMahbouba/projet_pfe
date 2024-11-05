@@ -45,7 +45,7 @@ class _DashboardState extends State<Dashboard> {
           // Home
           NavigationDestination(
             icon: const Icon(Icons.home_outlined),
-            label: 'Home', // Changez cela si vous avez une méthode de traduction
+            label: 'Accueil', // Changez cela si vous avez une méthode de traduction
             selectedIcon: const Icon(
               Icons.home_rounded,
               color: Color.fromRGBO(7, 82, 96, 1),
@@ -54,7 +54,7 @@ class _DashboardState extends State<Dashboard> {
           // MoreUser
           NavigationDestination(
             icon: const Icon(Icons.person_outline),
-            label: 'More ', // Changez cela si vous avez une méthode de traduction
+            label: 'Plus ', // Changez cela si vous avez une méthode de traduction
             selectedIcon: const Icon(
               Icons.person,
               color: Color.fromRGBO(7, 82, 96, 1),

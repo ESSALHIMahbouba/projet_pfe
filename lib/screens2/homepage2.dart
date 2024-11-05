@@ -170,7 +170,7 @@ class _HomePage2State extends State<HomePage2> {
                       ),
                       // Title for the news section
                       Text(
-                        'News',
+                        'Actualités',
                         selectionColor: Colors.yellow,
                         style: GoogleFonts.roboto(
                           fontSize: 25,
