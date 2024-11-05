@@ -55103,16 +55103,16 @@ case"ERROR_OPERATION_NOT_ALLOWED":case"operation-not-allowed":return"Server erro
 case"ERROR_INVALID_EMAIL":case"invalid-email":return s
 case"network-request-failed":return"Network error."
 default:return"Sign in failed. Please try again."}},
-F(a){var s,r,q=null,p=A.dI(q,q,0,B.UN,q),o=A.x("DREHATT",q,q,q,q,q,q,q,q,A.b8C().$3$color$fontSize$fontWeight(B.b2,30,B.Y),q,q,q),n=A.x("Welcome back!",q,q,q,q,q,q,q,q,A.bS().$2$color$fontSize(B.b8,35),q,q,q),m=this.ah6(),l=A.x("or",q,q,q,q,q,q,q,q,A.bS().$2$color$fontSize(B.iY,15),q,q,q),k=!this.x,j=k?B.TF:B.mi
-k=k?A.x("Sign In with Google",q,q,q,q,q,q,q,q,A.bS().$2$fontSize$fontWeight(20,B.Y),q,q,q):B.pe
+F(a){var s,r,q=null,p=A.dI(q,q,0,B.UN,q),o=A.x("DREHATT",q,q,q,q,q,q,q,q,A.b8C().$3$color$fontSize$fontWeight(B.b2,30,B.Y),q,q,q),n=A.x("Bienvenue!",q,q,q,q,q,q,q,q,A.bS().$2$color$fontSize(B.b8,35),q,q,q),m=this.ah6(),l=A.x("Ou",q,q,q,q,q,q,q,q,A.bS().$2$color$fontSize(B.iY,15),q,q,q),k=!this.x,j=k?B.TF:B.mi
+k=k?A.x("Connecter avec Google",q,q,q,q,q,q,q,q,A.bS().$2$fontSize$fontWeight(20,B.Y),q,q,q):B.pe
 k=A.ax(A.bgP(j,k,new A.b38(this,a),B.dq),55,1/0)
-j=A.x("Don't have an account? ",q,q,q,q,q,q,q,q,A.bS().$2$color$fontSize(B.iY,15),q,q,q)
+j=A.x("Vous n'avez pas de compte? ",q,q,q,q,q,q,q,q,A.bS().$2$color$fontSize(B.iY,15),q,q,q)
 s=A.lJ(q,q,q,B.bl,B.dS,q,q,q,q,q,q,q,q,q,q,new A.bw(B.T,t.WY),q,B.ps,q,q,q,q,q,q)
 r=t.p
-return A.d3(new A.t6(p,B.it,q),A.mk(!0,A.bd(q,A.ci(A.na(B.a1,A.fK(A.aW(A.a([B.Vg,o,B.p_,n,B.li,m,B.cv,l,B.cv,k,B.bW,A.bQ(A.a([j,A.fD(!1,A.x("Sign Up",q,q,q,q,q,q,q,q,A.bS().$2$fontSize$fontWeight(15,B.aq),q,q,q),q,q,B.aD,q,q,q,q,new A.b39(a),q,s)],r),B.n,B.bq,B.l,q)],r),B.n,B.m,B.ar),B.n2,B.S),B.b2),q,q),B.j,q,q,q,q,q,B.T,q,q,q,q),B.T,!0),q,q)},
-ah6(){var s,r,q,p,o,n=this,m=null,l="Password",k=n.f
+return A.d3(new A.t6(p,B.it,q),A.mk(!0,A.bd(q,A.ci(A.na(B.a1,A.fK(A.aW(A.a([B.Vg,o,B.p_,n,B.li,m,B.cv,l,B.cv,k,B.bW,A.bQ(A.a([j,A.fD(!1,A.x("S'inscrire",q,q,q,q,q,q,q,q,A.bS().$2$fontSize$fontWeight(15,B.aq),q,q,q),q,q,B.aD,q,q,q,q,new A.b39(a),q,s)],r),B.n,B.bq,B.l,q)],r),B.n,B.m,B.ar),B.n2,B.S),B.b2),q,q),B.j,q,q,q,q,q,B.T,q,q,q,q),B.T,!0),q,q)},
+ah6(){var s,r,q,p,o,n=this,m=null,l="Mot de passe",k=n.f
 k===$&&A.b()
-k=A.kw(k,"name@email.com",!1,B.lo,"Email",n.d)
+k=A.kw(k,"nom@email.com",!1,B.lo,"Email",n.d)
 s=n.y
 s=A.jM(new A.db(B.b5,m,m,new A.aH(B.fh,A.x(n.Q,m,m,m,m,m,m,m,m,A.bS().$2$color$fontSize(B.bG,12),B.M,m,m),m),m),!0,!0,!0,s)
 r=n.r
@@ -55123,8 +55123,8 @@ q=n.z
 q=A.jM(new A.db(B.b5,m,m,new A.aH(B.T,A.na(B.bw,A.bQ(B.a3I,B.n,B.m,B.l,m),B.bG),m),m),!0,!1,!0,q)
 p=A.lJ(m,m,m,B.bl,B.dS,m,m,m,m,m,m,m,m,m,m,new A.bw(B.fj,t.WY),m,B.ps,m,m,m,m,m,m)
 o=t.p
-p=A.bQ(A.a([q,A.fD(!1,A.x("Forgot password?",m,m,m,m,m,m,m,m,A.bS().$1$fontSize(15),m,m,m),m,m,B.aD,m,m,m,m,new A.b34(n),m,p)],o),B.n,B.bI,B.l,m)
-q=!n.w?A.x("Sign In",m,m,m,m,m,m,m,m,A.bS().$2$fontSize$fontWeight(25,B.Y),m,m,m):B.mi
+p=A.bQ(A.a([q,A.fD(!1,A.x("Mot de passe oubli\xe9?",m,m,m,m,m,m,m,m,A.bS().$1$fontSize(15),m,m,m),m,m,B.aD,m,m,m,m,new A.b34(n),m,p)],o),B.n,B.bI,B.l,m)
+q=!n.w?A.x("Se connecter",m,m,m,m,m,m,m,m,A.bS().$2$fontSize$fontWeight(25,B.Y),m,m,m):B.mi
 return A.aW(A.a([k,B.cw,s,B.cw,r,p,A.ax(A.re(q,n.gC5(),B.dq),55,1/0)],o),B.n,B.m,B.l)}}
 A.b3a.prototype={
 $1(a){return B.pW},

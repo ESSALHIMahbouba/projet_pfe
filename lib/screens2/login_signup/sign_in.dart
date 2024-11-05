@@ -210,7 +210,7 @@ class _SignInState extends State<SignIn> {
                       height: 40,
                     ),
                     Text(
-                      'Welcome back!',
+                      'Bienvenue!',
                       style: GoogleFonts.roboto(
                         fontSize: 35,
                         color: const Color.fromARGB(255, 16, 15, 15),
@@ -224,7 +224,7 @@ class _SignInState extends State<SignIn> {
                       height: 15,
                     ),
                     Text(
-                      'or',
+                      'Ou',
                       style: GoogleFonts.roboto(
                         fontSize: 15,
                         color: const Color.fromARGB(255, 67, 63, 63),
@@ -301,7 +301,7 @@ class _SignInState extends State<SignIn> {
                               ),
                         label: !isLoadingGoogle
                             ? Text(
-                                'Sign In with Google',
+                                'Connecter avec Google',
                                 style: GoogleFonts.roboto(
                                   fontSize: 20,
                                   fontWeight: FontWeight.w600,
@@ -317,7 +317,7 @@ class _SignInState extends State<SignIn> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'Don\'t have an account? ',
+                          'Vous n\'avez pas de compte? ',
                           style: GoogleFonts.roboto(
                             fontSize: 15,
                             color: const Color.fromARGB(255, 67, 63, 63),
@@ -349,7 +349,7 @@ class _SignInState extends State<SignIn> {
                             ),
                           ),
                           child: Text(
-                            'Sign Up',
+                            'S\'inscrire',
                             style: GoogleFonts.roboto(
                               fontSize: 15,
                               fontWeight: FontWeight.w700,
@@ -373,7 +373,7 @@ class _SignInState extends State<SignIn> {
       children: [
         Text_Field(
           label: 'Email',
-          hint: 'name@email.com',
+          hint: 'nom@email.com',
           isPassword: false,
           keyboard: TextInputType.emailAddress,
           txtEditController: _emailController,
@@ -411,8 +411,8 @@ class _SignInState extends State<SignIn> {
           obscureText:
               !_isPasswordVisible, // Updated line for password visibility
           decoration: InputDecoration(
-            labelText: 'Password',
-            hintText: 'Password',
+            labelText: 'Mot de passe',
+            hintText: 'Mot de passe',
             suffixIcon: IconButton(
               icon: Icon(
                 _isPasswordVisible ? Icons.visibility : Icons.visibility_off,
@@ -486,7 +486,7 @@ class _SignInState extends State<SignIn> {
                 ),
               ),
               child: Text(
-                'Forgot password?',
+                'Mot de passe oublié?',
                 style: GoogleFonts.roboto(
                   fontSize: 15,
                 ),
@@ -511,7 +511,7 @@ class _SignInState extends State<SignIn> {
             ),
             child: !isLoading
                 ? Text(
-                    'Sign In',
+                    'Se connecter',
                     style: GoogleFonts.roboto(
                       fontSize: 25,
                       fontWeight: FontWeight.w600,
