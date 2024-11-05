@@ -33,7 +33,7 @@ class UserManagement extends StatelessWidget {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text('User Management'),
+          title: Text('Gestion des Utilisateurs'),
         ),
         body: StreamBuilder<QuerySnapshot>(
           stream: FirebaseFirestore.instance.collection('Users').snapshots(),
@@ -76,9 +76,9 @@ class UserManagement extends StatelessWidget {
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Address: $address'),
-                        Text('Date of Birth: $dob'),
-                        Text('Mobile: $mobile'),
+                        Text('Addresse: $address'),
+                        Text('Date de naissance: $dob'),
+                        Text('Téléphone: $mobile'),
                       ],
                     ),
                     trailing: Row(

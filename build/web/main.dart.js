@@ -55863,7 +55863,7 @@ case 2:return A.o(null,r)}})
 return A.p($async$FY,r)},
 aGb(a,b){var s=A.co(new A.aNo(b),null,t.z)
 A.aG(a,!1).cs(s)},
-F(a){var s=null,r=A.dI(s,s,s,s,A.x("User Management",s,s,s,s,s,s,s,s,s,s,s,s)),q=$.aa,p=(q==null?$.aa=$.bj():q).bC("[DEFAULT]")
+F(a){var s=null,r=A.dI(s,s,s,s,A.x("Gestion des Utilisateurs",s,s,s,s,s,s,s,s,s,s,s,s)),q=$.aa,p=(q==null?$.aa=$.bj():q).bC("[DEFAULT]")
 A.aJ(p,$.br(),!0)
 q=A.ds(new A.b5(p))
 return new A.CX(A.d3(r,A.nM(new A.aNm(this),A.dw(q,q.gcX().dm("Users")).mG(),t.l7),s,s),new A.aNn(a),s)}}
@@ -55905,7 +55905,7 @@ if(q==null)q="No Mobile"
 n=A.x(k,p,p,p,p,p,p,p,p,A.bM(p,p,p,p,p,p,p,p,p,p,p,p,p,p,B.aq,p,p,!0,p,p,p,p,p,p,p,p),p,p,p)
 m=t.p
 l=this.a
-return A.mV(A.ed(!1,p,p,p,!0,p,!1,p,p,p,p,!1,p,p,p,A.aW(A.a([A.x("Address: "+A.i(s),p,p,p,p,p,p,p,p,p,p,p,p),A.x("Date of Birth: "+A.i(r),p,p,p,p,p,p,p,p,p,p,p,p),A.x("Mobile: "+A.i(q),p,p,p,p,p,p,p,p,p,p,p,p)],m),B.a5,B.m,B.l),p,n,A.bQ(A.a([A.cX(p,A.bY(B.tP,B.bz,p,p),p,new A.aNi(l,a,o),p,p),A.cX(p,A.bY(B.cn,B.br,p,p),p,new A.aNj(l,o),p,p)],m),B.n,B.m,B.ar,p),p),p,4,new A.ae(16,8,16,8),p,p)},
+return A.mV(A.ed(!1,p,p,p,!0,p,!1,p,p,p,p,!1,p,p,p,A.aW(A.a([A.x("Addresse: "+A.i(s),p,p,p,p,p,p,p,p,p,p,p,p),A.x("Date de naissance: "+A.i(r),p,p,p,p,p,p,p,p,p,p,p,p),A.x("T\xe9l\xe9phone: "+A.i(q),p,p,p,p,p,p,p,p,p,p,p,p)],m),B.a5,B.m,B.l),p,n,A.bQ(A.a([A.cX(p,A.bY(B.tP,B.bz,p,p),p,new A.aNi(l,a,o),p,p),A.cX(p,A.bY(B.cn,B.br,p,p),p,new A.aNj(l,o),p,p)],m),B.n,B.m,B.ar,p),p),p,4,new A.ae(16,8,16,8),p,p)},
 $S:51}
 A.aNi.prototype={
 $0(){return this.a.aGb(this.b,this.c)},
@@ -56072,7 +56072,7 @@ o=A.x("Contact Info",i,i,i,i,i,i,i,i,A.bS().$2$color$fontSize(B.b8,15),i,i,i)
 n=A.kw(A.ea(!0,i,!0,!0,i,i,!1),"No, Street, City",!1,B.cU,"Address",j.y)
 m=A.kw(A.ea(!0,i,!0,!0,i,i,!1),"07XXXXXXXX",!1,B.cU,"Mobile Number",j.z)
 l=A.lJ(i,i,i,new A.aY(new A.b5u(j,a),t.mN),new A.bw(2,t.YI),i,i,i,i,i,i,i,i,i,i,i,i,new A.bw(new A.df(A.ek(20),B.q),t._o),i,i,i,i,i,i)
-k=!j.e?A.x("Save",i,i,i,i,i,i,i,i,A.bS().$2$fontSize$fontWeight(25,B.Y),i,i,i):A.fY(i,i,new A.uI(B.i,t.ZU))
+k=!j.e?A.x("Enregistrer",i,i,i,i,i,i,i,i,A.bS().$2$fontSize$fontWeight(25,B.Y),i,i,i):A.fY(i,i,new A.uI(B.i,t.ZU))
 return A.d3(h,A.fK(A.aW(A.a([B.bW,f,B.bW,e,B.ce,s,B.bW,g,B.cv,r,B.cv,q,B.cv,p,B.cv,o,B.bW,n,B.cv,m,B.li,A.ax(A.fD(!1,k,i,i,B.aD,i,i,i,i,j.gRI(j),i,l),55,1/0),B.bW],t.p),B.a5,B.m,B.l),B.n2,B.S),i,i)}}
 A.b5v.prototype={
 $0(){var s=this.a,r=this.b,q=r.h(0,"name")

@@ -390,7 +390,7 @@ class _UserProfileState extends State<UserProfile> {
                 ),
                 child: !isLoading
                     ? Text(
-                        'Save',
+                        'Enregistrer',
                         style: GoogleFonts.roboto(
                           fontSize: 25,
                           fontWeight: FontWeight.w600,
